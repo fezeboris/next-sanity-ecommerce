@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href={`/`}>
           <h1 className="text-2xl md:text-4xl  font-bold">
             {" "}
-            Next<span className="text-primary">Commerce</span>
+            Style<span className="text-primary">Evolution</span>
           </h1>
         </Link>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
