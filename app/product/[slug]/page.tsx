@@ -8,7 +8,7 @@ import { Star, Truck } from "lucide-react";
 import React from "react";
 
 async function getData(slug: string) {
-  const query = `*[_type == 'product' && slug.current == "${slug}"][0]{
+  const query = `*[(_type == 'product' || _type == 'trending_product') && slug.current == "${slug}"][0]{
         _id,
         price,
          name,

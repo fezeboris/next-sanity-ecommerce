@@ -31,7 +31,6 @@ export default function Navbar() {
                   className="text-lg font-semibold text-primary"
                   href={link.href}
                 >
-                  {" "}
                   {link.name}
                 </Link>
               ) : (

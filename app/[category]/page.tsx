@@ -20,7 +20,7 @@ async function getData(category: string) {
 }
 
 async function getAllData() {
-  const query = `*[_type == 'product' ]{
+  const query = `*[(_type == 'product' || _type == 'trending_product')]{
         _id,
         "imageUrl": images[0].asset->url,
          name,
